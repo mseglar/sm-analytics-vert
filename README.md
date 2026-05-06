@@ -1,5 +1,5 @@
 # 🧗 Instagram Intelligence PoC
-### Mente y Roca — Outdoor Guiding Company
+### VERT — Outdoor Guiding Company
 
 > An end-to-end pipeline that pulls Instagram data via the Meta Graph API, analyzes it with Google Gemini (free tier), and generates ready-to-publish content ideas — all automated in Python. No paid API required.
 
@@ -21,7 +21,7 @@ No dashboards, no manual tagging — just run the script and get results.
 ## Project Structure
 
 ```
-instagram-intelligence-poc/
+sm-analytics-vert/
 │
 ├── instagram_poc_free.py   # Main pipeline script (Gemini)
 ├── .env                    # Your API keys (never commit this!)
@@ -51,8 +51,8 @@ instagram-intelligence-poc/
 ### 1. Clone or download the project
 
 ```bash
-git clone https://github.com/your-org/instagram-intelligence-poc.git
-cd instagram-intelligence-poc
+git clone https://github.com/mseglar/sm-analytics-vert.git
+cd sm-analytics-vert
 ```
 
 ### 2. Install dependencies
